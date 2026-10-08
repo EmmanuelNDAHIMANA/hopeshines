@@ -104,19 +104,10 @@ else:
                         label, value=datetime.date.today(), key=f"{dataset_name}_{field['name']}"
                     )
                 else:
-                    include_date = target_col.checkbox(
-                        f"Provide {field['name'].replace('_', ' ')}",
-                        value=False,
-                        key=f"{dataset_name}_{field['name']}_provided",
-                    )
-                    values[field["name"]] = (
-                        target_col.date_input(
-                            label,
-                            value=datetime.date.today(),
-                            key=f"{dataset_name}_{field['name']}",
-                        )
-                        if include_date
-                        else None
+                    values[field["name"]] = target_col.date_input(
+                        label,
+                        value=None,
+                        key=f"{dataset_name}_{field['name']}",
                     )
             elif field["type"] == "select":
                 values[field["name"]] = target_col.selectbox(
