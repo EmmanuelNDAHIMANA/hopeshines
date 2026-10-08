@@ -41,7 +41,27 @@ class DatabaseError(Exception):
 
 @contextmanager
 def get_connection():
-    cfg = st.secrets["mysql"]
+    # Accept both the grouped format and the flat DB_* keys used by the
+    # repository's secrets.toml.example and Streamlit Cloud settings.
+    if "mysql" in st.secrets:
+        cfg = st.secrets["mysql"]
+    else:
+        key_map = {
+            "host": "DB_HOST",
+            "port": "DB_PORT",
+            "user": "DB_USER",
+            "password": "DB_PASSWORD",
+            "db": "DB_NAME",
+        }
+        missing = [secret_key for secret_key in key_map.values() if secret_key not in st.secrets]
+        if missing:
+            raise DatabaseError(
+                "MySQL secrets are missing. Add DB_HOST, DB_PORT, DB_USER, "
+                "DB_PASSWORD, and DB_NAME to Streamlit Cloud app settings "
+                "(or configure them under a [mysql] section)."
+            )
+        cfg = {config_key: st.secrets[secret_key] for config_key, secret_key in key_map.items()}
+
     conn = pymysql.connect(
         charset="utf8mb4",
         connect_timeout=cfg.get("connect_timeout", CONNECT_TIMEOUT),
