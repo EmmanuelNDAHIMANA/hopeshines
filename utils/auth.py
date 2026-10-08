@@ -49,6 +49,20 @@ def get_authenticator():
     return authenticator, config
 
 
+def _find_user(users, username):
+    """Find a configured username, tolerating case normalization by auth cookies."""
+    if not username:
+        return None, None
+    if username in users:
+        return username, users[username]
+
+    normalized_username = str(username).casefold()
+    for configured_username, user in users.items():
+        if str(configured_username).casefold() == normalized_username:
+            return configured_username, user
+    return None, None
+
+
 def login_widget():
     """Render the login form. Returns (name, auth_status, username, role)."""
     authenticator, config = get_authenticator()
@@ -60,13 +74,15 @@ def login_widget():
     role = None
 
     if auth_status:
-        user = config["credentials"]["usernames"].get(username)
+        canonical_username, user = _find_user(config["credentials"]["usernames"], username)
         if user is None:
             st.session_state["authentication_status"] = False
             st.session_state.pop("role", None)
             auth_status = False
             st.error("Your account is no longer active. Please log in again.")
         else:
+            username = canonical_username
+            st.session_state["username"] = canonical_username
             role = user.get("role", "staff")
             st.session_state["role"] = role
     elif auth_status is False:
@@ -87,12 +103,14 @@ def require_login():
     # Read the current role on every page load so deleted or demoted accounts
     # cannot keep using privileges from an old Streamlit session.
     users = _load_config()["credentials"]["usernames"]
-    user = users.get(username)
+    canonical_username, user = _find_user(users, username)
     if user is None:
         st.session_state["authentication_status"] = False
         st.session_state.pop("role", None)
         st.error("Your account is no longer active. Please log in again.")
         st.stop()
+    username = canonical_username
+    st.session_state["username"] = canonical_username
     role = user.get("role", "staff")
     st.session_state["role"] = role
     return username, role
