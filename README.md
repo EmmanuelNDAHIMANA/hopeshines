@@ -21,25 +21,15 @@ pip install -r requirements.txt
 ## 2. Connect it to your MySQL database
 
 Your database connection details already live in `.streamlit/secrets.toml`,
-pre-filled for the Aiven MySQL server you provided:
+pre-filled for the  MySQL server you provided:
 
-```toml
-[mysql]
-host = "mysql-2a6c776f-biclass.e.aivencloud.com"
-port = 15575
-user = "avnadmin"
-password = "..."
-db = "defaultdb"
-```
+
 
 If you ever need to point the app at a different MySQL server, copy
 `config/secrets.toml.example` to `.streamlit/secrets.toml` and fill in the
 new values — never commit the real `secrets.toml` to version control (it's
 already in `.gitignore`).
 
-**Security note:** since this password was shared in plain text, it's worth
-rotating it from your Aiven console once you're done testing, then updating
-`secrets.toml` with the new one.
 
 ### Create the tables
 
@@ -71,14 +61,7 @@ in `secrets.toml`.
   clearly instead of failing silently.
 - **food_items**, **food_database** — standalone, no dependency on students.
 
-## 3. Set up your users
 
-Default demo users are in `config/users.yaml`:
-
-| username | password  | role  |
-|----------|-----------|-------|
-| admin    | admin123  | admin |
-| staff1   | staff123  | staff |
 
 **Change these before real use.** Log in as an admin and open **User
 Management** in the sidebar to create accounts, change names/emails/roles and
@@ -96,11 +79,7 @@ Remove demo accounts from **User Management** after creating your own accounts.
 Also change the `cookie.key` value in `config/users.yaml` to any random
 string — this secures the login session cookie.
 
-## 4. Run the app
 
-```bash
-streamlit run Home.py
-```
 
 This opens the app in your browser (usually `http://localhost:8501`).
 Log in, then use the sidebar to reach:
