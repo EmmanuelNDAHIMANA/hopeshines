@@ -1,0 +1,21 @@
+cookie:
+  name: rh_app_auth_cookie
+  key: CHANGE_THIS_TO_A_RANDOM_SECRET_STRING
+  expiry_days: 7
+credentials:
+  usernames:
+    admin:
+      name: Administrator
+      email: admin@example.org
+      password: $2b$12$GQ2lf1GIgwyFlrGlz2c12uJoZIAjvUHBVi6Zr/qKmsH3h2gVXEgG6
+      role: admin
+    staff1:
+      name: Staff Member One
+      email: staff1@example.org
+      password: $2b$12$nM6wHMg8lSWBtjcblvzBD.06L/YnrMPz4BbSTo6PhKtwZtgsZQJdC
+      role: staff
+    Phillip:
+      name: Phillip Mulari
+      email: phillip@hopeshines.org
+      password: $2b$12$.1rzjkM7VyW1E6nGfWOoO.ZWG/LOInRpWDKKxBpClNLoZp3lgP0g2
+      role: admin

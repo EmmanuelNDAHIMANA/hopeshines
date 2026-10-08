@@ -1,0 +1,86 @@
+Student_Id,Student_Name,Student_DoB,Student_Gender,Student_Parent,Parent_Phone,Parental_Status,Disability_Status,Sponsorship_Status
+RH-0001,Akeza Matambi Shakira,2008/8/10,Female,Dukundimana Emma,789983963,Mother,No,NO
+RH-0002,Biramahire Fabrice,2013/5/4,Male,Marcelline Iyakaremye,785743395,Mother,No,YES
+RH-0003,Biramahire Frank,2008/5/19,Male,Marcelline Iyakaremye,785743395,Mother,No,YES
+RH-0004,Cyizere Salim,2007/12/7,Male,Tite Musengimana,788469358,Father,No,NO
+RH-0005,Cyuzuzo Aliane,2008/2/11,Female,Apporonie Mukamana,782269089,Mother,No,NO
+RH-0006,Dusabimana Dativa,2008/5/27,Female,Damascene Nzeyimana,784878509,Father,No,YES
+RH-0007,Fayida Leoncie,2007/8/15,Female,Uzamukunda Christine,788576554,Mother,No,YES
+RH-0008,Gisubizo Germaine,2006/10/18,Female,Alice Mukarubuga,786677650,Mother,No,YES
+RH-0009,Igihozo Louange,2014/10/9,Female,Nshimiyimana Betty,788276187,Mother,No,NO
+RH-0010,Igihozo Tessy Olga,2019/12/26,Female,Marie claire Uwambajimana,785481682,Mother,No,NO
+RH-0011,Igirimpuhwe Keza Nancy,2007/1/4,Female,Aline Umwizawumutesi,786670701,Mother,No,YES
+RH-0012,Ingabire Sonia,2005/10/10,Female,Nyiraminani Godance,785223121,Mother,No,NO
+RH-0013,Iradukunda Diane,2012/1/21,Female,Martha Mukamusoni,783247872,Mother,No,NO
+RH-0014,Ishimwe Ganza Shallom,2019/4/13,Male,Theo Ntakirutimana,786052162,Father,No,NO
+RH-0015,Ishimwe Shallon Elione,2021/1/17,Female,Theo Ntakirutimana,786052162,Father,No,NO
+RH-0016,Isimbi Kellia,2020/9/25,Female,Tumukunde Josiane,799607858,Mother,No,YES
+RH-0017,Izuwayo Chancerine,2010/1/25,Female,Subukino Coretta,780961383,Mother,No,NO
+RH-0018,Kwizera Radju Foranny,2010/6/27,Male,Tite Musengimana,788469358,Father,No,NO
+RH-0019,Matabaro Jacques,2005/6/9,Male,Bernadette Niyonsenga,788579720,Mother,No,YES
+RH-0020,Mugisha Olivia,2022/9/27,Female,Tuyisenge Zula,782019071,Mother,No,NO
+RH-0021,Mugisha Raoul,2008/6/11,Male,Apporinie Mukamana,782269089,Mother,No,NO
+RH-0022,Muhubiri Nestor,2005/5/31,Male,Aline Umwizawumutesi,786670701,Mother,No,YES
+RH-0023,Mukamwiza Jessica,2014/2/24,Female,Chantal Umutoni,784362113,Mother,No,NO
+RH-0024,Mukeshimana Denyse,2006/10/25,Female,Aisha Kamagaju,0782019071\0782048499,Mother,No,YES
+RH-0025,Munezero Fabienne,2017/11/6,Female,Mariane Mukamana,9789074770,Mother,No,NO
+RH-0026,Murengezi Benefils,2006/4/15,Male,Uwibambe Marie Therese,0782458499\0791410920,Mother,No,NO
+RH-0027,Mushimiyimana Clarisse,2005/1/16,Female,Godfrey Kayigi,786382240,Father,No,NO
+RH-0028,Nikuze Dusabe,2007/8/30,Female,Damascene Nzeyimana,784878509,Father,No,YES
+RH-0029,Nishimwe Yvette,2008/3/23,Female,Nyirarukundo Clemantine,781184070,Mother,No,YES
+RH-0030,Niyomutoni Marie Claudette,2004/12/14,Female,Mukamuhigirwa Leoncie,782791769,Mother,No,YES
+RH-0031,Niyomwungeri Christian,2007/3/15,Male,Epiphanie Ahishakiye,785455468,Mother,No,YES
+RH-0032,Niyonkuru Beline,2007/11/30,Female,Ngaboyamahina Vincent,787088185\784683393,Father,No,NO
+RH-0033,Nsengiyaremye Eric,2004/5/5,Male,Epiphanie Ahishakiye,785455468,Mother,No,YES
+RH-0034,Nshimiyumukiza Evatom,2010/2/6,Male,Martha Mukamusoni,784345152,Mother,No,YES
+RH-0035,Rucogoza Yvan,2008/3/6,Male,Silas Rucogoza,788583960,Father,No,NO
+RH-0036,Sezar Kenny,2013/4/1,Male,Aline Umwizawumutesi,786670701,Mother,No,NO
+RH-0037,Tugerageze Assouman,2011/1/1,Male,Mariane Mukamana,789074770,Mother,No,NO
+RH-0038,Tuyishime Bertin,2007/8/30,Male,Bernadette Niyonsenga,788579720,Mother,No,YES
+RH-0039,Tuyizere Amani,2006/9/15,Male,Mariane Mukamana,789074770,Mother,No,YES
+RH-0040,Twiringiyimana Viateur,2011/2/12,Male,Marie claire Uwambajimana,785481682,Mother,No,YES
+RH-0041,Umuhire Chance,2008/11/27,Female,Jacqueline Mfilikura,787335200,Mother,No,NO
+RH-0042,Umuhoza Queen Morgan,,Female,,780626101,,No,NO
+RH-0043,Umurerwa Samuel,2010/5/11,Male,Rosine Mukantwali,783614934,Mother,No,NO
+RH-0044,Umutesi Nadine,2010/8/8,Female,Silas Rucogoza,788583960,Father,No,NO
+RH-0045,Umwari Sharapova,2015/11/10,Female,Tite Musengimana,788469358,Father,No,NO
+RH-0046,Usanase Betty,2010/5/13,Female,Bakundufite Imaculle,783134109,Mother,No,NO
+RH-0047,Usanase Ornella,2016/9/23,Female,Apporinie Mukamana,782269089,Mother,No,NO
+RH-0048,Uwase Asumma,2008/4/18,Female,Marie claire Uwambajimana,785481682,Mother,No,YES
+RH-0049,Uwase Raissa,2008/3/22,Female,Marie Gorette Ntakirutimana,791410779,Mother,No,YES
+RH-0050,Uwimanikunda Latifa,2011/1/1,Female,Speciose Mukanyandwi,795463436,Mother,No,YES
+RH-0051,Uwimana Ganza Kennedy,2018/5/20,Male,Tuyisenge Zula,782019071,Mother,No,NO
+RH-0052,Uwimana Innocent,2008/1/1,Male,Lilliane Byukusenge,791364911,family,No,NO
+RH-0053,Uwimfura Vanessa,2007/9/4,Female,Pascal Ndayambaje,782515111,Father,No,YES
+RH-0054,Uwituze Jean Baptiste,2012/11/1,Male,Kayitesi Liliane,786048839,Mother,No,NO
+RH-0055,Uwingeneye Shadia,2018/1/4,Female,Kamagaju Aisha,782019071,Mother,No,NO
+RH-0056,Cyomoro Yvan,2018/6/28,Male,Umuhoza Fionna,796618099,Mother,No,NO
+RH-0057,Uwihirwe Mugisha Bertrand,2019/5/23,Male,Uwera Delphine,793590247,Mother,No,NO
+RH-0058,Uwimana Sumaya,2019/5/20,Female,Irasubiza Fridaus,782531403,Mother,No,NO
+RH-0059,Umurerwa Naila,2019/6/11,Female,Uwase Nadia,791991472,Mother,No,NO
+RH-0060,Irakoze Ganza Yvan,2022/6/20,Male,Ihirwe Nice,786886531,Mother,No,NO
+RH-0061,Rwema Hani Haydari,2022/2/11,Male,Dutinyimana Fatuma,784695577,Mother,No,NO
+RH-0062,Kirenga Sano Prince,2022/5/13,Male,Uwiturije Zawad,788852260,Mother,No,NO
+RH-0063,Irankunda Lucas ,2019/9/2,Male,Ishimwe Naome,793369894,Mother,No,NO
+RH-0064,Kaliza Hirwa Gabriel,2025/3/4,Female,Uwase Chadia,783328380,Mother,No,NO
+RH-0065,Karabo Hirwa Michael,2025/3/4,Female,Uwase Chadia,,Mother,No,NO
+RH-0066,Dusabimana cyiza Sharif,2021/8/12,Male,Uwimana Josiane,784951496,Mother,No,NO
+RH-0067,Gisa Clement Yvan,2025/4/20,Male,Uwingeneye Clementine,791786325,Mother,No,NO
+RH-0068,Mugisha Cyusa Brian,2020/7/2,Male,Uwineza Sylvie,790233723,Mother,No,NO
+RH-0069,Mahirwe William,2021/11/23,Male,Mugwaneza Sifa,783777303,Mother,No,NO
+RH-0070,Hirwa Sammy Girrifni Willy,2025/12/18,Male,Uwamwezi Idaya,782871844,Mother,No,NO
+RH-0071,Ibyishaka Fabrice ,2023/8/30,Male,Uwineza Dorcas,785251254,Mother,No,NO
+RH-0072,Shimwa Ganza Chris,2023/6/2,Male,Ugirimpundu Rosine,792557431,Mother,No,NO
+RH-0073,Ineza Kessy Pamella,2021/6/7,Female,Karigirwa Elliminate,792823373,Mother,No,NO
+RH-0074,Ishimwe Fiette ,2017/7/7,Female,Mukamana Francine,791542513,Mother,No,NO
+RH-0075,Mbabazi Husna,2009/5/12,Female,Nyirangendo fatuma,796605171,Family,No,NO
+RH-0076,Igihozo Joselyne,2017/3/8,Female,Mukamana Vestine,789317440,Mother,No,NO
+RH-0077,Nibeza Elvis,,,,,,,
+RH-0078,Ishimwe Prince,,,,,,,
+RH-0079,Kampire Adelphine,,,,,,,
+RH-0080,Latifa Nzayisenga,,,,,,,
+RH-0081,Mugisha Zidan,,,,,,,
+RH-0082,Muteteri Rachel,,,,,,,
+RH-0083,Tuwayisi Reponse,,,,,,,
+RH-0084,Uwineza Laurette,,,,,,,
+RH-0085,Ndayisaba Germain,,,,,,,
